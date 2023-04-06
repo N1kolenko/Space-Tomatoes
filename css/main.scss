@@ -2,9 +2,11 @@
 @import 'https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap';
 
 body {
+
     background-image: url(../img/bg-small.png);
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-color: #0B0B0B;
 
     a {
@@ -12,11 +14,16 @@ body {
     }
 }
 
-// nav
+.container {
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
 
 header {
-    // padding: 0 20px;
-    // margin: 0 auto;
 
     width: 100%;
 
@@ -93,8 +100,7 @@ header {
 }
 
 main {
-    // padding: 0 20px;
-    // margin: 0 auto;
+    padding-bottom: 658px;
 
     .preview {
         .txt {
@@ -144,9 +150,11 @@ main {
 
         .small-astronaut {
             img {
+                position: absolute;
                 display: block;
                 margin-left: auto;
-                object-fit: contain;
+                width: 100%;
+                right: 0;
             }
         }
     }

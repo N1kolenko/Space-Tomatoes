@@ -1,12 +1,21 @@
 @import 'https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap';
 body {
   background-image: url(../img/bg-small.png);
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: #0B0B0B;
 }
 body a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 header {
@@ -69,6 +78,9 @@ header ul .burger .btn__hamb:after {
   top: 7px;
 }
 
+main {
+  padding-bottom: 658px;
+}
 main .preview .txt {
   margin-top: 52px;
   display: flex;
@@ -110,8 +122,9 @@ main .preview .big_astronaut {
   display: none;
 }
 main .preview .small-astronaut img {
+  position: absolute;
   display: block;
   margin-left: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 100%;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */
